@@ -17,14 +17,14 @@ MEMBERS_DATA = [
         "sid": "004202400011",
         "role_key": "role_dicky",  # Ketua Kelompok Statistik 1
         "status": "active",
-        "image": "assets/dicky.jpg" 
+        "image": "STATISTICS/assets/dicky.jpg" 
     },
     {
         "name": "Kenrick Sierra Kisworo",
         "sid": "004202400070",
         "role_key": "role_kenrick", # Ketua Kelompok Aljabar Linear
         "status": "active",
-        "image": "assets/kenrick.jpg" 
+        "image": "STATISTICS/assets/kenrick.jpg" 
     },
 ]
 
@@ -465,4 +465,5 @@ if uploaded_file:
     except Exception as e:
         st.error(f"{L['error_processing']} {e}")
 else:
+
     st.info(L["upload_instruction_status"])
